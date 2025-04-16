@@ -20,7 +20,7 @@ const quizData = [
 
 export default function Home() {
   const [messages, setMessages] = useState([
-    { sender: 'bot', text: 'Hi! I'm your Physiology Bot. Ask me anything about muscles, neurons, kidneys, or cardiovascular system.' }
+    { sender: 'bot', text: 'Hi! I\'m your Physiology Bot. Ask me anything about muscles, neurons, kidneys, or cardiovascular system.' }
   ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
@@ -62,7 +62,7 @@ export default function Home() {
 
     const ruleBasedResponses = {
       'action potential': 'An action potential is a rapid change in membrane potential that travels along the neuron.',
-      'cardiac output': 'Cardiac output = Stroke Volume x Heart Rate. It's the amount of blood pumped per minute.',
+      'cardiac output': 'Cardiac output = Stroke Volume x Heart Rate. It\'s the amount of blood pumped per minute.',
       'nephron': 'The nephron is the basic functional unit of the kidney, responsible for filtering blood and forming urine.'
     };
 
